@@ -22,6 +22,9 @@
        grid-template-columns: repeat(1, 1fr);
     }
     }
+    #spinner{
+      display: none;
+    }
     </style>
 </head>
 <body>
@@ -32,13 +35,18 @@
         <button onclick="searchPhone()" class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
       </div>
 
+      <!-- Loading spinner -->
+      <div id="spinner" class="spinner-border text-danger" role="status">
+        <span class="visually-hidden ">Loading...</span>
+      </div>
+
       <!-- Phone details -->
       <div id="phone-details" class="mx-auto" style="width: 20rem;">
       </div>
 
-       <!-- Phone display -->
+       <!--  display display -->
             <div id="section-container" class=" container row-cols-1 row-cols-md-3 g-4">
-        
+              
             </div>
       <script src="phone.js"></script>
 </body>
