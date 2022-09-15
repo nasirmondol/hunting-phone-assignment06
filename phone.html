@@ -7,7 +7,7 @@
     <title>Favorite phone</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="phone.css">
-    <link rel="stylesheet" media="only screen and (min-width: 700px)" href="laptop.css">
+    <link rel="stylesheet" media="only screen and (min-width: 601px)" href="laptop.css">
     <style>
       *{
         box-sizing: border-box;
@@ -30,6 +30,10 @@
     <div class="input-group mb-3 w-50 mx-auto mt-3">
         <input id="search-text" type="text" class="form-control" placeholder="Search your favorite phone" aria-label="Recipient's username" aria-describedby="button-addon2">
         <button onclick="searchPhone()" class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+      </div>
+
+      <!-- Phone details -->
+      <div id="phone-details" class="mx-auto" style="width: 20rem;">
       </div>
 
        <!-- Phone display -->
