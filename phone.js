@@ -46,10 +46,9 @@ const loadPhoneDetails = phoneName =>{
 const toggleSpinner = displayStyle =>{
   document.getElementById('spinner').display = displayStyle;
 }
-
 const displayDetails = phone =>{
-  console.log(phone)
   const details = document.getElementById('phone-details');
+  // Clear the phone details
   details.textContent = '';
   let div = document.createElement('div');
   
